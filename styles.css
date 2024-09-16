@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    background-color: white; 
+    align-items: center;
+    
+}
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #000000, #013a72, #145ca3);
+    color: white;
+    padding: 10px ;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text span {
+    font-size: 14px;
+}
+
+.logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.bureau {
+    margin-left: auto;
+}
+
+/* Bureau summary section*/
+.fin {
+    background-color: #003366;
+    color: white;
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center;
+    width: 31.3%;
+}
+.fin h3 {
+    font-size: 16px;
+    margin: 2px auto;
+}
+
+table {
+    width: 32%;
+    border-collapse: separate;
+    border-spacing: 7px;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+th {
+    background-color: #000033; 
+    color: white;
+    width: 45%;
+    padding: 2px;
+    font-size: 13px;
+    
+}
+
+td, input {
+    background-color: #edeff5;
+    color: white;
+    padding: 1px;
+    font-size: 11px;
+    
+}
+
+.param-cell {
+    background-color: #0427a5; 
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border: 1px solid #0000FF;
+    text-align: center;
+    font-size: 11px;
+    color: blue;
+}
+.equal-width {
+    width: 20%;
+}
+
+.fail {
+    background-color: #003366;
+    color: white;
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center;
+    width: 31.5%;
+}
+.fail h3 {
+    font-size: 16px;
+    margin: 2px auto;
+}
+
+.other {
+    background-color: #003366;
+    color: white;
+    padding: 0px;
+    margin: 5px auto;
+    text-align: center;
+    width: 31.5%;
+}
+.other h3 {
+    font-size: 16px;
+    margin: 2px auto;
+}
+/* 3rd table */
+
+.container {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.months {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-top: 65px;
+    padding: 10px;
+}
+
+.months div {
+    background-color: #38bdf8;
+    color: white;
+    padding: 2px;
+    margin: 1px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section {
+    flex-grow: 1;
+}
+
+.title-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+}
+
+.title {
+    background-color: #111;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    width: 48%; /* Adjust the width for each title */
+}
+
+.year-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.years {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%; /* Adjust width for the years section */
+}
+
+.years div {
+    background-color: #2a2a72;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin: 2px;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 2px repeat(4, 1fr); /* Add a divider in the grid */
+    grid-gap: 5px;
+    margin: 5px 0;
+    font-size: 10px;
+}
+
+.label {
+    background-color: #a855f7;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    margin: 5px;
+}
+
+.divider {
+    border-left: 2px solid #2a2a72;
+    width: 1px;
+    grid-column: 0;
+}
+
+.footer {
+    margin-top: 350px;
+    font-size: 12px;
+    text-align: right;
+    color: #666;
+}
+
+/* last line */
+.blue-line {
+    background-color: #003366;
+    height: 20px;
+    margin: 20px auto; 
+    width: 31%;
+}
